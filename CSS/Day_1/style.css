@@ -1,0 +1,19 @@
+/* box-model
+1. Border
+2. Margin
+3. Padding
+
+
+*/
+
+.container {
+  width: 700px;
+  border: 1px solid black;
+  margin: 70px auto;
+  padding: 50px;
+  background-color: rgb(206, 237, 227);
+}
+
+.center{
+  text-align: center;
+}
