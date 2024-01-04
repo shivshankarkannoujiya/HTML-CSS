@@ -1,0 +1,158 @@
+/* positions 
+    fixed
+    sticky
+    absolute
+    relative
+*/
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card {
+  width: 270px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+}
+.banner {
+  position: sticky;
+  top: 0;
+  width: 270px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid orangered;
+  background-color: orangered;
+  color: white;
+  border-radius: 14px;
+}
+.banner-title {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.banner-desc {
+  font-size: 14px;
+  margin: 0;
+}
+.desc {
+  font-size: 14px;
+}
+.card-img {
+  width: 100%;
+  border-radius: 14px;
+}
+.help {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 40px;
+  border: none;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
+/* top,right, bottom, left => distance from that direaction */
+.red {
+  height: 80px;
+  width: 80px;
+  background-color: red;
+}
+.blue {
+  height: 60px;
+  width: 60px;
+  background-color: royalblue;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.black {
+  height: 70px;
+  width: 70px;
+  background-color: black;
+}
+
+.parent {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin: 80px auto;
+  background-color: blueviolet;
+}
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg {
+  width: 700px;
+  margin: 30px auto;
+  position: relative;
+}
+.bg-img {
+  width: 100%;
+  border-radius: 16px;
+}
+.content {
+  position: absolute;
+  bottom: 100px;
+  left: 40px;
+  color: white;
+  padding: 20px;
+}
+.btn {
+  background-color: #fff;
+  padding: 16px 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+}
+.best {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(255, 244, 225);
+  color: rgb(73, 46, 0);
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 14px;
+}
+.card-header {
+  position: relative;
+}
+.profile {
+  width: 600px;
+  margin: auto;
+  position: relative;
+}
+.banner-img {
+  width: 100%;
+}
+.user {
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  left: 50px;
+  border: 4px solid white;
+}
+.blog1 {
+  height: 150vh;
+  background-color: orangered;
+}
+.blog2 {
+  height: 150vh;
+  background-color: blueviolet;
+}
+.header {
+  top: 0;
+  position: sticky;
+  height: 100px;
+  background-color: black;
+}
